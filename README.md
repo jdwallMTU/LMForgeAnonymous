@@ -28,7 +28,7 @@
     WANDB_API_KEY=yourKey
     HF_API_KEY=yourKey
     OPENAI_API_KEY=yourKey
-- Be sure to change the values above to values for your system. 
+- If you haven't already, please create a MySQL database first and make sure to update the values above to match your system.
 
 5. Last, make sure your file location in your terminal is in the outer django_backend folder. Then, run the commands below one by one:
 - python manage.py makemigrations
